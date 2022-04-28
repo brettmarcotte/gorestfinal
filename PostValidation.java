@@ -41,7 +41,7 @@ public class PostValidation {
             errors.addError("user_id", "User_ID can not be left blank");
         } else {
             // is the postUserId connected to an existing user.
-            Optional<User> foundUser = userRepo.findById(postUserId);
+            Optional<Post> foundUser = postRepo.findById(postUserId);
 
             if (foundUser.isEmpty()) {
                 errors.addError("user_id", "User_ID is invalid because there is no user found with the id: " + postUserId);
