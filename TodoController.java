@@ -3,7 +3,6 @@ package com.example.gorestfinal.controllers;
 
 import com.example.gorestfinal.models.Post;
 import com.example.gorestfinal.repositories.PostRepository;
-import com.example.gorestfinal.repositories.TodoRepository;
 import com.example.gorestfinal.utils.ApiErrorHandling;
 import com.example.gorestfinal.validation.PostValidation;
 import com.example.gorestfinal.validation.ValidationError;

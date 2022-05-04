@@ -1,7 +1,6 @@
 package com.example.gorestfinal.controllers;
 
 
-import com.example.gorestfinal.models.Post;
 import com.example.gorestfinal.models.User;
 import com.example.gorestfinal.repositories.UserRepository;
 import com.example.gorestfinal.utils.ApiErrorHandling;

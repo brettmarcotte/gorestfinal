@@ -1,9 +1,7 @@
 package com.example.gorestfinal.validation;
 
 import com.example.gorestfinal.models.Post;
-import com.example.gorestfinal.models.User;
 import com.example.gorestfinal.repositories.PostRepository;
-import com.example.gorestfinal.repositories.UserRepository;
 
 import java.util.Optional;
 

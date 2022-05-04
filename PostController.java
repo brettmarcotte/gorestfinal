@@ -55,7 +55,7 @@ public class PostController {
 
     }
 
-    @PostMapping
+    @PostMapping                  
     public ResponseEntity<?> createPost (@RequestBody Post newPost) {
         try {
 

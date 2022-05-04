@@ -3,11 +3,9 @@ package com.example.gorestfinal.controllers;
 
 import com.example.gorestfinal.models.Comment;
 import com.example.gorestfinal.models.Post;
-import com.example.gorestfinal.repositories.CommentRepository;
 import com.example.gorestfinal.repositories.PostRepository;
 import com.example.gorestfinal.utils.ApiErrorHandling;
 import com.example.gorestfinal.validation.CommentValidation;
-import com.example.gorestfinal.validation.PostValidation;
 import com.example.gorestfinal.validation.ValidationError;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
