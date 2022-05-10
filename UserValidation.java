@@ -8,7 +8,8 @@ import com.example.gorestfinal.repositories.UserRepository;
 import java.util.Optional;
 
 public class UserValidation {
-    public static ValidationError validatePost(User user, UserRepository userRepo,
+
+    public static ValidationError validateUser(User user, UserRepository userRepo,
                                                boolean isUpdate) {
 
         ValidationError errors = new ValidationError();

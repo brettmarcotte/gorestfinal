@@ -1,9 +1,9 @@
 package com.example.gorestfinal.validation;
 
 import com.example.gorestfinal.models.Comment;
-import com.example.gorestfinal.models.Post;
 import com.example.gorestfinal.repositories.CommentRepository;
 import com.example.gorestfinal.repositories.PostRepository;
+
 
 import java.util.Optional;
 
